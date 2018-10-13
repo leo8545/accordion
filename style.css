@@ -1,25 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	font-family: "roboto slab";
+}
 header {
 	padding: 20px 0;
 	background-color: #bbb;
 	text-align: center;
 }
-.accordion-title {
-	padding: 20px;
-	border: 1px solid #bbb;
+.container {
+	margin: 50px auto;
+	text-align: center;
+}
+button.accordion-title {
+	width: 70%;
+	padding: 18px;
+	border: 0;
 	background-color: #eee;
+	text-align: left;
 	transition: 0.4s;
 	cursor: pointer;
 }
-.accordion-title:focus {
+button:focus {
 	outline: none;
 }
-.accordion-title:hover {
+button.accordion-title.active,
+button.accordion-title:hover {
 	background-color: #ddd;
 }
 
-.accordion-text {
-	padding: 0 25px;
+.panel {
+	margin: 0 auto;
+	padding: 0 18px;
 	max-height: 0;
 	overflow: hidden;
+	width: 67.45%;
+	background-color: #ddd;
 	transition: max-height 0.2s ease-out;
+	text-align: left;
+}
+.panel img {
+	width: 200px;
+	float: left;
 }
