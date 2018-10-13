@@ -1,0 +1,21 @@
+.accordion-title {
+	margin: 0px;
+	padding: 20px;
+	border: 1px solid #bbb;
+	background-color: #eee;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.accordion-title:focus {
+	outline: none;
+}
+.accordion-title:hover {
+	background-color: #ddd;
+}
+
+.accordion-text {
+	padding: 0 20px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
