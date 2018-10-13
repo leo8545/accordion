@@ -1,5 +1,9 @@
+header {
+	padding: 20px 0;
+	background-color: #bbb;
+	text-align: center;
+}
 .accordion-title {
-	margin: 0px;
 	padding: 20px;
 	border: 1px solid #bbb;
 	background-color: #eee;
@@ -14,7 +18,7 @@
 }
 
 .accordion-text {
-	padding: 0 20px;
+	padding: 0 25px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
